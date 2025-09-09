@@ -1,0 +1,10 @@
+file = open("holajohn.txt", "x")
+file = open("holajohn.txt","w")
+L = ["Hola mozo \n","Toma tu archivo perro \n","Ponte a currar \n"]
+file.write("Holiii \n")
+file.writelines(L)
+file.close()
+file = open("holajohn.txt","r+") 
+print("Output of the Read function is ")
+print(file.read())
+print()
